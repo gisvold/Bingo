@@ -8,11 +8,14 @@ var alreadyDrawn = arrayListOf(
 fun main(args: Array<String>) {
 
     println("I would like to extend a heartfelt welcome you all!")
-    
+
+    Thread.sleep(5_000)
     println("Bingo number #1 of the day is:" + drawBingoNumber(alreadyDrawn))
 
+    Thread.sleep(5_000)
     println("Bingo number #2 of the day is:" + drawBingoNumber(alreadyDrawn))
 
+    Thread.sleep(5_000)
     println("Bingo number #3 of the day is:" + drawBingoNumber(alreadyDrawn))
 
 }
