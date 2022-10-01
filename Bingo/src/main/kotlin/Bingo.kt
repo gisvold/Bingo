@@ -5,17 +5,19 @@ var alreadyDrawn = arrayListOf(
     46, 47, 48, 49, 50, 52, 53, 54, 55, 56, 57, 58, 59,
     63, 64, 65, 68, 69, 70, 73, 74, 75)
 
+const val sleepTime = 4_000L
+
 fun main(args: Array<String>) {
 
-    println("I would like to extend a heartfelt welcome you all!")
+    println("I would like to extend a heartfelt welcome to you all!")
 
-    Thread.sleep(5_000)
+    Thread.sleep(sleepTime)
     println("Bingo number #1 of the day is:" + drawBingoNumber(alreadyDrawn))
 
-    Thread.sleep(5_000)
+    Thread.sleep(sleepTime)
     println("Bingo number #2 of the day is:" + drawBingoNumber(alreadyDrawn))
 
-    Thread.sleep(5_000)
+    Thread.sleep(sleepTime)
     println("Bingo number #3 of the day is:" + drawBingoNumber(alreadyDrawn))
 
 }
@@ -29,7 +31,7 @@ fun drawBingoNumber(alreadyDrawn: ArrayList<Int>): Int {
 
     return if (!checkAlreadyDrawn(drawnNumber)){
         alreadyDrawn.add(drawnNumber)
-        return drawnNumber
+        drawnNumber
     } else {
         drawBingoNumber(alreadyDrawn)
     }
