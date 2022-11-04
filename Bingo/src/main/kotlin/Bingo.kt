@@ -1,9 +1,9 @@
 var alreadyDrawn = arrayListOf(
-    4, 5, 6, 9,
+    1, 4, 5, 6, 8, 9,
     10, 11, 12, 13, 14, 17, 19,
     22, 23, 24, 25, 27, 29,
     30, 35, 36, 37, 38,
-    40, 41, 42, 46, 47, 48,
+    40, 41, 42, 44, 46, 47, 48,
     50, 51, 52, 53, 54, 56, 57, 59,
     61, 62, 64, 66, 67, 68, 69,
     70, 71, 72, 73, 74, 75
@@ -42,5 +42,5 @@ fun drawBingoNumber(alreadyDrawn: ArrayList<Int>): Int {
 }
 
 fun getRandom(): Int{
-   return (0..75).random()
+   return (1..75).random()
 }
