@@ -1,11 +1,11 @@
 var alreadyDrawn = arrayListOf(
-    1, 4, 5, 6, 8, 9,
-    10, 11, 12, 13, 14, 17, 19,
-    22, 23, 24, 25, 27, 29,
-    30, 35, 36, 37, 38,
-    40, 41, 42, 44, 46, 47, 48,
-    50, 51, 52, 53, 54, 56, 57, 59,
-    61, 62, 64, 66, 67, 68, 69,
+    1, 2, 3, 4, 5, 6, 7, 8, 9,
+    10, 11, 12, 13, 14, 17, 18, 19,
+    22, 23, 24, 25, 26, 27, 28, 29,
+    30, 31, 32, 33, 34, 35, 36, 37, 38, 39,
+    40, 41, 42, 43, 44, 45, 46, 47, 48, 49,
+    50, 51, 52, 53, 54, 55, 56, 57, 58, 59,
+    61, 62, 63, 64, 66, 67, 68, 69,
     70, 71, 72, 73, 74, 75
 )
 
@@ -15,11 +15,11 @@ fun main() {
 
     println("I would like to extend a heartfelt welcome to you all!")
 
-    Thread.sleep(sleepTime)
+/*    Thread.sleep(sleepTime)
     println("Bingo number #1 of the day is: " + drawBingoNumber(alreadyDrawn))
 
     Thread.sleep(sleepTime)
-    println("Bingo number #2 of the day is: " + drawBingoNumber(alreadyDrawn))
+    println("Bingo number #2 of the day is: " + drawBingoNumber(alreadyDrawn))*/
 
     Thread.sleep(sleepTime)
     println("Bingo number #3 of the day is: " + drawBingoNumber(alreadyDrawn))
