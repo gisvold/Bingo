@@ -1,5 +1,9 @@
-var alreadyDrawn = arrayListOf(
-    
+var alreadyDrawn = arrayListOf(0,
+    5, 7, 9, 12,
+    21, 22, 24, 26, 27, 30,
+    32, 36, 39, 40, 42, 43,
+    50,
+    64, 65, 67, 73
 )
 
 const val sleepTime = 4_000L
